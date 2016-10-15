@@ -154,6 +154,7 @@ Developed by: www.cliversoft.com";
         public class CompanyItem : InputItem
         {
             readonly public string Url;
+            readonly public SearchItem Search;
 
             public CompanyItem(string url)
             {
