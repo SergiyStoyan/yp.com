@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Filter tree file. Produced by DataSifter3.0, http://www.cliversoft.com-->
+<FilterTree>
+  <Filter type="AgileFilter" version="1.0" input_group="" definition="//div[@class='info']&#xA;&#xA;Company" comment="">
+    <Filter type="RegexFilter" version="1.0" input_group="Company" definition="href=&quot;(?'Url'.*?)&quot;.*&#xA;IgnoreCase, Compiled, Singleline" comment="" />
+  </Filter>
+  <Filter type="RegexFilter" version="1.0" input_group="" definition="href=&quot;(?'NextPageUrl'[^&gt;]*?)&quot;[^&gt;]*&gt;Next&lt;&#xA;IgnoreCase, Compiled, Singleline" comment="" />
+</FilterTree>
