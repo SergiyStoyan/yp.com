@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CliverBotGui", "..\..\CLIVE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "yp.com", "yp.com.csproj", "{99BD0A06-0D5E-4EC0-BFE2-B88BEEBB9568}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CliverWebRoutines", "..\..\CLIVER\CliverBot\CliverWebRoutines\CliverWebRoutines.csproj", "{114B1616-75E2-40D6-8E43-FBF2F6EE9390}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,14 @@ Global
 		{99BD0A06-0D5E-4EC0-BFE2-B88BEEBB9568}.Release|Any CPU.Build.0 = Release|Any CPU
 		{99BD0A06-0D5E-4EC0-BFE2-B88BEEBB9568}.Release|x86.ActiveCfg = Release|Any CPU
 		{99BD0A06-0D5E-4EC0-BFE2-B88BEEBB9568}.Release|x86.Build.0 = Release|Any CPU
+		{114B1616-75E2-40D6-8E43-FBF2F6EE9390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114B1616-75E2-40D6-8E43-FBF2F6EE9390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114B1616-75E2-40D6-8E43-FBF2F6EE9390}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{114B1616-75E2-40D6-8E43-FBF2F6EE9390}.Debug|x86.Build.0 = Debug|Any CPU
+		{114B1616-75E2-40D6-8E43-FBF2F6EE9390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114B1616-75E2-40D6-8E43-FBF2F6EE9390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114B1616-75E2-40D6-8E43-FBF2F6EE9390}.Release|x86.ActiveCfg = Release|Any CPU
+		{114B1616-75E2-40D6-8E43-FBF2F6EE9390}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
