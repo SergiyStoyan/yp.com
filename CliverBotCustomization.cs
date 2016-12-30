@@ -102,10 +102,12 @@ Developed by: www.cliversoft.com";
             string input_locations = Cliver.Log.AppDir + "\\" + PathRoutines.GetFileNameFromPath("input_locations.txt");
             if (!File.Exists(input_locations))
                 throw (new Exception("Input file " + input_locations + " does not exist."));
-            FileReader fr2 = new FileReader(input_locations, FileFormatEnum.TSV);
             for (FileReader.Row r = fr.ReadLine(); r != null; r = fr.ReadLine())
+            {
+                FileReader fr2 = new FileReader(input_locations, FileFormatEnum.TSV);
                 for (FileReader.Row r2 = fr2.ReadLine(); r2 != null; r2 = fr2.ReadLine())
                     start_input_item_queue.Add(new CustomBotCycle.SearchItem(r["Keyword"], r2["City"] + ", " + r2["State"]));
+            }
 
             if (start_input_item_queue.CountOfNew < 1)
                 LogMessage.Error("Input queue is empty so nothing is to do. Check your input data.");
